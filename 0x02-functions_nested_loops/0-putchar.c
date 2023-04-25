@@ -14,8 +14,8 @@ int main(void)
 
 	for(count = 0; count < size; count++)
 	{
-		_putchar(list[count]);
+		putchar(list[count]);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
