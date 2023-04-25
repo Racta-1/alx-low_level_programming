@@ -12,7 +12,7 @@ int main(void)
 
 	size = sizeof(list) / sizeof(list[0]);
 
-	for(count = 0; count < size; count++)
+	for (count = 0; count < size; count++)
 	{
 		putchar(list[count]);
 	}
