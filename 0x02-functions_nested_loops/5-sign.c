@@ -18,15 +18,15 @@ int print_sign(int num)
 		putchar(43);
 		return (1);
 	}
-	else if (num = 0)
-	{
-		putchar(48);
-		return (0);
-	}
-	else
+	else if (num < 0)
 	{
 		putchar(45);
 		return (-1);
+	}
+	else
+	{
+		putchar(48);
+		return (0);
 	}
 	putchar('\n');
 }
