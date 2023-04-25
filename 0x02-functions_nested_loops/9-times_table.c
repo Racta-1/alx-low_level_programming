@@ -9,27 +9,27 @@
 
 void times_table(void)
 {
-	int a, b, times;
+	int a, b, prod;
 	
 	for (a = 0; a <= 9; a++)
 	{
-		putchar(48);
+		_putchar('0');
 		for (b = 1; b <= 9; b++)
 		{
-			times = a * b;
-			putchar(44);
-			putchar(32);
-			if (times <= 9)
+			prod = a * b;
+			_putchar(',');
+			_putchar(' ');
+			if (prod <= 9)
 			{
-				putchar(32);
-				putchar(times + 48);
+				_putchar(' ');
+				_putchar(prod + '0');
 			}
 			else
 			{
-				putchar((times / 10) + 48);
-				putchar((times % 10) + 48);
+				_putchar((times / 10) + '0');
+				_putchar((times % 10) + '0');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
