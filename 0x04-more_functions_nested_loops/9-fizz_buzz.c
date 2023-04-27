@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - print numbers 1 to 100, both for 
- * multiple of 3 fizz, 5 - Buzz, 3 and 5 FizzBuzz
- *
- * Return: Always 0
+ * main - prints Buzz each numbers of 3 and 5.
+ * Return: Always 0.
  */
+
 int main(void)
 {
 	int n;
